@@ -17,11 +17,11 @@ Fuente: [La Nacion](https://www.lanacion.com.ar/tecnologia/el-primer-ano-de-arge
 
 Reconocimiento a toda la gente que partició, directa o indirectamente, en el desarrollo de Argentum Online. Quizas me esté olvidando de mencionar varias personas que han participado en el proyecto, si es así, no duden en escribirme y hacermelo saber.
 
-## Créditos de ORE
+## Créditos de ORE (Motor del juego)
     Aaron Perkins - Baronsoft
     www.baronsoft.com
 
-## Créditos SocketWrench
+## Créditos SocketWrench (Librería de conexiónes a internet)
     www.catalyst.com
 
 # Argentum Online
