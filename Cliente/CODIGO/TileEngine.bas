@@ -1476,10 +1476,10 @@ For Y = (minY + 8 + screenOutspace) + RenderMod.iImageSize To (maxY - 8 + screen
 Next Y
 
 'Draw Transparent Layers  (Layer 2, 3)
-ScreenY = 8 + screenOutspace + RenderMod.iImageSize 'GS
+ScreenY = 8 + RenderMod.iImageSize  'GS
 For Y = (minY + 8) + RenderMod.iImageSize To (maxY - 1 + screenOutspace) - RenderMod.iImageSize  'GS
-    ScreenX = 5 + screenOutspace + RenderMod.iImageSize  'GS
-    For X = (minX + 5 + screenOutspace) + RenderMod.iImageSize To (maxX - 5 + screenOutspace) - RenderMod.iImageSize 'GS
+    ScreenX = 5 + RenderMod.iImageSize   'GS
+    For X = (minX + 5) + RenderMod.iImageSize To (maxX - 5) - RenderMod.iImageSize   'GS
         If X > 100 Or X < -3 Then Exit For
         iPPx = ((32 * ScreenX) - 32) + PixelOffsetX
         iPPy = ((32 * ScreenY) - 32) + PixelOffsetY
